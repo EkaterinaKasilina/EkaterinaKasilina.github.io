@@ -8,11 +8,10 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Hi! I’m Ekaterina, and welcome to my blog on Data Science. 
     
-    Open `_data/authors.yml` to edit this text.
+    I have experience across various data science domains and enjoy working with fascinating datasets. 
+    I’m also learning to write on Medium, so join me as I explore and share insights in the world of data
 
   # This photo will be used in the about section
   picture:
