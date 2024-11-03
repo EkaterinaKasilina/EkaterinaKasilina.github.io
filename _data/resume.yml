@@ -9,21 +9,17 @@ basics:
   #phone: "(912) 555-4321"
   #website: "https://piedpiper.com"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    I am a senior data scientist with more than 14 years of experience in applying machine learning, data analysis, and deep learning to solve real-world problems. I currently work at EPAM Systems, a global leader in digital platform engineering and software development services, where I take part in multiple projects across different domains and industries.
+
+    My core competencies include time series forecasting and natural language processing. I have designed and developed data-driven solutions that improved operational efficiency, demand forecasting, customer satisfaction, and revenue growth for clients such as railway companies, retailers, and telecom providers.
+
+    I also mentor and manage a team of data scientists and analysts, and create courses and guides for professional development. I am passionate about learning new technologies and techniques, and sharing my knowledge and expertise with others.
   location:
     #address: "2712 Broadway St"
     #postalCode: "CA 94115"
     #city: "San Francisco"
     countryCode: "ME"
-    region: "Montenegro"
+    #region: "Montenegro"
   profiles:
 #    - network: "Twitter"
 #      username: "RHendricksCEO"
@@ -32,10 +28,10 @@ basics:
       username: "Ekaterina Kasilina"
       url: "https://www.linkedin.com/in/katy-kasilina/"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
+  - company: "EPAM System"
+    position: "Senior Data Scientist"
     website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+    startDate: "2022-08-01"
     endDate: ""
     summary: >
       Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
@@ -45,49 +41,51 @@ work:
       - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
       - "Successfully won Techcrunch Disrupt"
       - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
-    highlights:
-      - "Awarded 'Teacher of the Month'"
+#volunteer:
+#  - organization: "CoderDojo"
+#    position: "Teacher"
+#    website: "https://coderdojo.com/"
+#    startDate: "2012-01-01"
+#    endDate: "2013-01-01"
+#    summary: "Global movement of free coding clubs for young people."
+#    highlights:
+#      - "Awarded 'Teacher of the Month'"
 education:
-  - institution: "University of Oklahoma"
+  - institution: "Voronezh State University"
     area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+    studyType: "Master"
+    startDate: "2005-09-01"
+    endDate: "2010-07-01"
+#    gpa: "4.0"
+#    courses:
+#      - "DB1101 - Basic SQL"
+#      - "CS2011 - Java Introduction"
 awards:
   - title: "Digital Compression Pioneer Award"
     date: "2014-11-01"
     awarder: "Techcrunch"
     summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+#publications:
+#  - name: "Video compression for 3d media"
+#    publisher: "Hooli"
+#    releaseDate: "2014-10-01"
+#    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+#    summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
-  - name: "Web Development"
+  - name: "Machine Learning"
     level: "Master"
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
+      - "nlp"
+      - "timeseries"
+      - "sklearn"
+      - "spark"
+      - "Deep Learning"
+  - name: "Data Analysis"
     level: "Master"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "SQL"
+      - "Data Visualization"
+      - "Tableau"
 languages:
   - language: "English"
     fluency: "C1"
@@ -99,11 +97,15 @@ interests:
   - name: "History"
     keywords:
       - "Medieval"
+      - "Witchcraft"
   - name: "Sport"
     keywords:
       - "Yoga"
       - "Tennis"
-  - name: "SciFi"
+  - name: "Reading"
+    keywords:
+      - "SciFi"
+      - "Fantasy"
 #references:
 #  - name: "Erlich Bachman"
 #    reference: >
