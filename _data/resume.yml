@@ -45,7 +45,7 @@ work:
       - "Model tuning and validation"
       - "Writing production python code for e2e model train with pyspark and lighgbm"
       - "Pipelining models’ train with Databricks workflows"
-      - "Took part in creation EPAM NLP courses"
+      - "Took part in creation EPAM nlp courses"
       - "Mentoring junior and middle level data scientists"
 #volunteer:
 #  - organization: " ""
@@ -81,7 +81,7 @@ skills:
   - name: "Machine Learning"
     level: "Master"
     keywords:
-      - "NLP"
+      - "nlp"
       - "Timeseries"
       - "Sklearn"
       - "Spark"
