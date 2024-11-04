@@ -11,10 +11,13 @@ hide_last_modified: true
 tags: [data analysis, data visualization]
 ---
 
+
+Time series data, by nature, captures trends, seasonality, and anomalies over time, making it essential to use the right visual tools to reveal these insights. 
+
 The full text and code can be found in my [Medium blog](https://medium.com/@katykas/discovering-time-series-patterns-seasonal-plots-1be96b3fd239)
 
 ## Introduction
-Time series data, by nature, captures trends, seasonality, and anomalies over time, making it essential to use the right visual tools to reveal these insights. In this article, I’ll explore the crucial role of effective visualization in uncovering and understanding seasonal patterns in time series data.
+In this article, I’ll explore the crucial role of effective visualization in uncovering and understanding seasonal patterns in time series data.
 
 So let’s dive in!
 
