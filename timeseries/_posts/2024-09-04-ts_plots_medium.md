@@ -22,4 +22,4 @@ https://medium.com/@katykas/discovering-time-series-patterns-seasonal-plots-1be9
 
 ### Small image
 
-![](https://github.com/EkaterinaKasilina/EkaterinaKasilina.github.io/blob/main/assets/img/me_round.png)
+![](https://raw.githubusercontent.com/EkaterinaKasilina/EkaterinaKasilina.github.io/refs/heads/main/assets/img/me_round.png)
