@@ -8,7 +8,7 @@ image: /assets/img/blog/ts_plots_seasonal.png
 
 sitemap: false
 hide_last_modified: true
-tags: [data analysis]
+tags: [data analysis, data visualization]
 ---
 
 The full text and code can be found in my [Medium blog](https://medium.com/@katykas/discovering-time-series-patterns-seasonal-plots-1be96b3fd239)
