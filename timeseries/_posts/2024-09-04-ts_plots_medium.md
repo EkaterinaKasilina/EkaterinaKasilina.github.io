@@ -5,7 +5,7 @@ description: >
   Exploring time series patterns with seasonal plots
 sitemap: false
 hide_last_modified: true
-tags: [timeseries, data analysis, python]
+tags: [data analysis]
 ---
 
 

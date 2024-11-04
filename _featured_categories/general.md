@@ -10,7 +10,7 @@ slug: general
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  General DS posts
+  Posts on various data related topics
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true

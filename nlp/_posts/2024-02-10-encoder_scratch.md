@@ -5,7 +5,7 @@ description: >
   Implementation of trinsformer encoder part for text classification
 sitemap: false
 hide_last_modified: true
-tags: [NLP, pytorch, python]
+tags: [encoder, text classification]
 ---
 
 

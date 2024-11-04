@@ -5,7 +5,7 @@ description: >
   Comparing diffrent models for hate speech Detection
 sitemap: false
 hide_last_modified: false
-tags: [NLP, pytorch, python]
+tags: [text classification, pytorch]
 ---
 
 
