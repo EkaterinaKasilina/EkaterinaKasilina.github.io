@@ -18,3 +18,8 @@ tags: [data analysis]
 
 
 https://medium.com/@katykas/discovering-time-series-patterns-seasonal-plots-1be96b3fd239
+
+
+### Small image
+
+![](https://github.com/EkaterinaKasilina/EkaterinaKasilina.github.io/blob/main/assets/img/me_round.png)
