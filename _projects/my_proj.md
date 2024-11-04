@@ -6,7 +6,7 @@ description: >
   Written Digit Recognition application 
 date: 1 Apr 2020
 image: 
-  path: /assets/img/projects/digit_v3.png
+  path: /assets/img/projects/digit_v4.png
 links:
   - title: Link
     url: https://github.com/EkaterinaKasilina/written_digit_recognition?tab=readme-ov-file
