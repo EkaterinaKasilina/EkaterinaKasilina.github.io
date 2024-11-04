@@ -15,3 +15,4 @@ The Transformer model has revolutionized the field of NLP, especially with the e
 
 The full code for implementation and train can be found [here](https://www.kaggle.com/code/abramova/transformer-classification-from-scratch-pytorch/notebook)
 
+TODO
