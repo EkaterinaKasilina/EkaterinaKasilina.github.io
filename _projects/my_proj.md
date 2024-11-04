@@ -1,12 +1,12 @@
 ---
 layout: project
 title: 'Written Digit Recognition'
-caption: hey hey
+caption: Written Digit Recognition application
 description: >
   Written Digit Recognition application 
 date: 1 Apr 2020
 image: 
-  path: /assets/img/projects/digit_rec.jpg
+  path: /assets/img/projects/digit_v2.jpg
 links:
   - title: Link
     url: https://github.com/EkaterinaKasilina/written_digit_recognition?tab=readme-ov-file
