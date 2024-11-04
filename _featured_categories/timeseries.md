@@ -3,14 +3,14 @@
 layout: grid
 
 # The title of the tag's page.
-title: NLP
+title: Timeseries
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: nlp
+slug: timeseries
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  nlp posts
+  timeseries posts
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true
