@@ -4,7 +4,7 @@ title: Discovering Time Series Patterns with Seasonal Plots
 description: >
   Exploring time series patterns with seasonal plots
   
-image: assets/img/blog/ts_plots_seasonal.png
+image: /assets/img/blog/ts_plots_seasonal.png
 
 sitemap: false
 hide_last_modified: true
