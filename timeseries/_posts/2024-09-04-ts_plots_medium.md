@@ -4,12 +4,7 @@ title: Discovering Time Series Patterns with Seasonal Plots
 description: >
   Exploring time series patterns with seasonal plots
   
-image: 
-  path: /assets/img/blog/pawel-czerwinski-848z7lbCjoo-unsplash.jpg
-  srcset: 
-    1920w: /assets/img/blog/pawel-czerwinski-848z7lbCjoo-unsplash.jpg
-    960w:  /assets/img/blog/pawel-czerwinski-848z7lbCjoo-unsplash@0,5x.jpg
-    480w:  /assets/img/blog/pawel-czerwinski-848z7lbCjoo-unsplash@0,25x.jpg  
+image: /assets/img/blog/example-content-ii.jpg
 
 sitemap: false
 hide_last_modified: true
@@ -22,4 +17,3 @@ https://medium.com/@katykas/discovering-time-series-patterns-seasonal-plots-1be9
 
 ### Small image
 
-![](https://raw.githubusercontent.com/EkaterinaKasilina/EkaterinaKasilina.github.io/refs/heads/main/assets/img/me_round.png)
