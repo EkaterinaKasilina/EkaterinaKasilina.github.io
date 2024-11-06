@@ -47,6 +47,44 @@ work:
       - "Pipelining models’ train with Databricks workflows"
       - "Took part in creation EPAM NLP courses"
       - "Mentoring junior and middle level data scientists"
+  - company: "Inleksys"
+    position: "Team Lead Data Scientist"
+    website: "https://inleksys.com/"
+    startDate: "2020-08-01"
+    endDate: "2022-08-01"
+    summary: >
+      Developing voice bot for telecom call center.
+    highlights:
+      - "I played a technical leadership role guiding and setting direction for a team"
+      - "created a voice bot using ML algorithms that covers 24% of B2C outbound calls for telecom company"
+      - "proportionally reduced the costs of its call center"
+  - company: "Inleksys"
+    position: "Team Lead Data Scientist"
+    website: "https://inleksys.com/"
+    startDate: "2017-04-01"
+    endDate: "2020-08-01"
+    summary: >
+      Developed an application for monitoring data quality and detecting anomalies in stored telecom data.
+    highlights:
+      - "I played a technical leadership role guiding and setting direction for a team"
+      - "enhances the quality of data utilised for marketing communications"
+      - "communication effectiveness surged by 15%"
+      - "complaints about poor personal offers dropped by 10%"
+  - company: "AT Consulting"
+    position: "Team Lead Data Analyst"
+    #website: "https://inleksys.com/"
+    startDate: "2010-09-01"
+    endDate: "2017-04-01"
+    summary: >
+      From junior data analyst to Team Lead.
+    highlights:
+      - "Built an analytical datamart for telecom company using data from Hadoop and Oracle databases
+         with PL/SQL"
+      - "Created analytical reports and presented them to stakeholders"
+      - "Getting and cleaning data for machine learning models"
+      - "Created a data analytics team which had grown from 3 to 22 members"
+      - "Created a SQL course in the company"
+      - "Providing career mentorship and guidance"
 #volunteer:
 #  - organization: " ""
 #    position: "Teacher"
