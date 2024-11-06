@@ -9,10 +9,10 @@ title: About
 
 <!--author-->
 
-I am a senior data scientist with more than 14 years of experience 
-in data analysis, applying machine learning, and deep learning to solve real-world problems.
-I also bring a strong background in team leadership, project management, and mentoring.
-
+As an accomplished Senior Data Scientist with over a decade in machine learning I specialise in classic ml, timeseries forecasting and NLP tasks and consistently deliver high-quality products.I have designed and developed data-driven solutions that enhanced operational efficiency, improved demand forecasting, boosted customer satisfaction, and drove revenue growth for various clients, including railway companies, retailers, and telecom providers.
+<br>
+In addition to my technical work, I mentor data scientists and have created courses and resources for professional development. I am passionate about exploring new technologies and sharing my expertise with others.
+<br>
 ---
 **About me:**     
 Kaggle Competitions Expert with two silver medals  
