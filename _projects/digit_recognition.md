@@ -17,21 +17,24 @@ links:
 sitemap: false
 ---
 
-Small project for classic problem Written Digit Recognition but with Flask and Canvas.   
+When I first started out as a data scientist, I really wanted to take a project from start to finish. 
+I also wanted to show my friends and colleagues just how cool machine learning could be. 
+So, I built an app with Flask and Canvas and hosted it on Heroku(until 2022)
+
 
 # Models
-I use two models in this project:  
+For this project I use two models:  
 1. Feed forward neural network (FNN) is written on numpy and is not very accurate.  
-2. Convolutional neural network is created with PyTorch and is much more accurate.  
-The models were trained on MNIST dataset.  
+2. Convolutional neural network is created with PyTorch and is much more better.  
+The models are trained on MNIST dataset.  
 
 # FeedForward neural network
-This model has the simplest architecture:  
+This model has very simple architecture:  
 - Input layer size is 28*28  
 - Hidden layer size is 100  
 - Output layer size is 10  
 
-# FNN  details
+## FNN  details
 - Weights are initialized using Xavier weight initialization;  
 - Loss method performs forward and backward passes and computes loss with l2 regularization;  
 - The model is trained using stochastic gradient descent.  
