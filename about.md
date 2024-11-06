@@ -10,9 +10,9 @@ title: About
 <!--author-->
 
 As an accomplished Senior Data Scientist with over a decade in machine learning I specialise in classic ml, timeseries forecasting and NLP tasks and consistently deliver high-quality products.I have designed and developed data-driven solutions that enhanced operational efficiency, improved demand forecasting, boosted customer satisfaction, and drove revenue growth for various clients, including railway companies, retailers, and telecom providers.
-<br>
+   
 In addition to my technical work, I mentor data scientists and have created courses and resources for professional development. I am passionate about exploring new technologies and sharing my expertise with others.
-<br>
+   
 ---
 **About me:**     
 Kaggle Competitions Expert with two silver medals  
