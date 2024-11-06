@@ -20,7 +20,7 @@ Kaggle Competitions Expert with two silver medals
 **MY EXPERIENCE**  
 - 2023 - Developing Demand forecasting application for the biggest North American retailers(Costco, Target, etc)
 - 2022 - Developing Resource optimization application for Canadian train company
-- 2020 - Team Lead for developing a Voice Agent for sales in call centers at a telecom company
+- 2020 - Team Lead for developing a Voice Bot for sales in call centers at a telecom company
 - 2019 - Team Lead for a data quality control application featuring anomaly detection capabilities  
 - 2018 - Creating a CV tool to analyze workload in sales offices
 - 2010 - 2018 - Conducting data analysis and developing dashboards for stakeholders
