@@ -36,7 +36,7 @@ This model has the simplest architecture:
 - Loss method performs forward and backward passes and computes loss with l2 regularization;  
 - The model is trained using stochastic gradient descent.  
 
-[!](https://raw.githubusercontent.com/EkaterinaKasilina/written_digit_recognition/refs/heads/master/static/images/conf_matrix_fnn.png)
+![](https://raw.githubusercontent.com/EkaterinaKasilina/written_digit_recognition/refs/heads/master/static/images/conf_matrix_fnn.png)
 FNN Confusion matrix
 {:.figcaption}
 
@@ -44,6 +44,6 @@ FNN Confusion matrix
 - Weights are initialized using Xavier weight initialization;  
 - During training dropout is applied to conv layers and first fully connected layer;  
 
-[!](https://raw.githubusercontent.com/EkaterinaKasilina/written_digit_recognition/refs/heads/master/static/images/conf_matrix_fnn.png)
+![](https://raw.githubusercontent.com/EkaterinaKasilina/written_digit_recognition/refs/heads/master/static/images/conf_matrix_fnn.png)
 CNN Confusion matrix
 {:.figcaption}
