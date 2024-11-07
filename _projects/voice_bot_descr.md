@@ -34,7 +34,7 @@ So, we began by identifying the key challenges we needed to address:
 3. **Natural Language Understanding**. Understand users answers.
 4. **Dialogue Management**. Control the flow of the conversation.
 5. **Text-to-Speech**. Convert text to speech
-6. Repeat!
+6. **Metrics**. How could we define if POS was successful?
 
 ## 1. Data collection
 This was one of the most fascinating parts! 
@@ -90,11 +90,31 @@ unnatural accents and misplaced emphasis. It sounded downright creepy!
 So, we recorded the phrases ourselves, adding natural pauses, different variations of the same phrases, sighs, friendly intonations, 
 and even smiling as we spoke to make the bot sound more personable and human.
 
+## 6. Metrics
+We needed to determine how to demonstrate to stakeholders that our POC was effective, as our ML metrics
+didn’t hold much business relevance. So, we created and secured approval for a list of metrics to track,
+improve, and present to stakeholders:
+1. The refusal rate should not be significantly higher than that of a real employee, accounting for the time of day and week.
+2. The number of new agreements should meet the target level.
+3. The average conversation duration should meet the agreed minimum.
+Additionally, we developed internal metrics to monitor, such as the distribution of levels at which clients ended the conversation, 
+the frequency of “Unclear” responses, and a few others.
+
+
 ## Run
 Our initial run included just 20 calls. We carefully listened to each one, adjusted some phrases, and ran the process again. 
 We repeated this cycle several times: making calls, recording, analyzing, refining phrases, saving data, and retraining 
 the models, to continually improve the bot's performance.
 After some number of iterations we successfully presented our POC and got a contract and budget for development!
+
+# A few points we discovered through repeated analysis
+The iterative process of running and analysing brought incredibly valuable! We uncovered insights that seem obvious in hindsight but helped to make improvments.
+Here are just a few of them:
+- Every voice bot phrase needed to end with a question, like "Do you agree?" or "Are you interested?" Without this prompt, many people simply remained silent.
+- Proposal descriptions had to be concise; lengthy descriptions led to clients dropping off.
+- We needed to detect if a client interrupted before the bot finished speaking, asking a question or commenting. The bot needed to actively listen throughout the conversation, not just after finishing each phrase.
+- Conversion rate was strongly impacted by the time of day and day of the week.
+
 
 ## Tech stack
 What we used for development:
