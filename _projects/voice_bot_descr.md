@@ -34,7 +34,7 @@ So, we began by identifying the key challenges we needed to address:
 3. **Natural Language Understanding**. Understand users answers.
 4. **Dialogue Management**. Control the flow of the conversation.
 5. **Text-to-Speech**. Convert text to speech
-6. **Metrics**. How could we define if POS was successful?
+6. **Metrics**. How could we define if POC was successful?
 
 ## 1. Data collection
 This was one of the most fascinating parts! 
