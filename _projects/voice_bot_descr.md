@@ -17,7 +17,7 @@ image:
 sitemap: false
 ---
 
-In 2019, before large language models (LLMs) took the world by storm, my team and I were tasked with creating a 
+In 2019, before LLMs took the world by storm, my team and I were tasked with creating a 
 voice bot for a telecom company’s call centers. 
 The main problem was that when call center employees reached out to clients, the most common responses 
 were clients saying they were not ready to talk, not interested, or simply no answers at all. 
@@ -39,8 +39,9 @@ So, we began by identifying the key challenges we needed to address:
 ## 1. Data collection
 This was one of the most fascinating parts! 
 At this stage, neither my team nor the stakeholders fully understood what aspects could actually be automated. 
+We know nothing about call centers and stakeholders had no idea what ML could do!
 We quickly realized that there were numerous types of calls, proposals, and scripts used by employees, 
-so we began by listening to a sample of recorded conversations where clients were offered to switch to new contracts 
+so we began by listening to a sample of recorded conversations for one type of calls where clients were offered to switch to new contracts 
 with better terms.   
 After a few days of listening, we identified a segment that could be handled by machine learning. 
 Conversations typically started with greetings, followed by asking if the client could spare 5-7 minutes. 
@@ -50,24 +51,25 @@ After several brainstorming sessions, we created a simplified script:
 
 1. We mapped a straightforward path for a successful call: if the client agreed with each statement and expressed interest in the proposal, the call would be transferred to a live agent for detailed discussion and confirmation.
 2. If the client declined to talk, we would offer to call back later.
-3. For any additional questions or unexpected responses, we would either ask for clarification or transfer to a live agent.
+3. For any additional questions or unexpected responses, we would ask for clarification twice and then transfer to a live agent.
   
 Time to implement! 
 
 ## 2. Speach-to-text
-As I mentioned, our resources were limited, so we began by exploring existing solutions.
+As I mentioned, our resources were limited, no way we could train complex models, so we began by exploring existing solutions.
 After several trials, we found that only paid options provided the speed and quality needed for 
 our speech-to-text task. Since this was a critical component, we had to allocate some budget to 
 make it work effectively!(I intentionally don't mentioned what exactly was used as it was not for English language and hence is not relevant for many of you)
 
 
-## 3. Natural Language Understanding
+## 3. Natural Language Understanding (and again data collection)
 This was another intriguing component! How could we quickly and accurately interpret responses? After another round of conversation analysis,
 we observed that at nearly every stage, answers could be classified as "Yes," "No," or "Unclear." 
-If a response wasn’t clearly a "Yes" or "No"—such as questions or hesitations—we classified it as "Unclear," 
+If a response wasn’t clearly a "Yes" or "No" — such as questions or hesitations — we classified it as "Unclear," 
 prompting our voice bot to ask the client to repeat.  
 This task essentially boiled down to building a simple classifier, even just using a set of regular 
-expressions—but we had no data at all. To gather data, we created a chatbot that presented the phrases our 
+expressions—but we had no data at all!  
+To gather data, we created a chatbot that presented the phrases our 
 bot would use at different conversation stages, showing them one by one without any specific logic. 
 Then, we spent time responding to these prompts in as many ways as we could imagine. 
 We also shared the chatbot link with colleagues and friends, asking them to spend 10-15 minutes answering the 
@@ -85,5 +87,35 @@ Last but not least! Our bot needed to use predefined responses — no stakeholde
 We had a set list of phrases to convert to speech. Using a Text-to-Speech model would have simplified development 
 and future updates, but unfortunately, even paid solutions produced responses with odd, 
 unnatural accents and misplaced emphasis. It sounded downright creepy! 
-So, we recorded the phrases ourselves, adding natural pauses, sighs, friendly intonations, 
+So, we recorded the phrases ourselves, adding natural pauses, different variations of the same phrases, sighs, friendly intonations, 
 and even smiling as we spoke to make the bot sound more personable and human.
+
+## Run
+Our initial run included just 20 calls. We carefully listened to each one, adjusted some phrases, and ran the process again. 
+We repeated this cycle several times: making calls, recording, analyzing, refining phrases, saving data, and retraining 
+the models, to continually improve the bot's performance.
+After some number of iterations we successfully presented our POC and got a contract and budget for development!
+
+## Tech stack
+What we used for development:
+1. Python for ML part:
+    - TF-IDF text representation
+    - Naive Bayes models
+    - regexp where possible 
+2. Redis to store all our data. 
+3. JSON file for dialogue management
+4. Java for all backend operations including dialing and redirecting calls.
+5. Third party paid API for non-english speach-to-text
+
+
+## Conclusion and final thoughts: 
+Since the POC was successfully presented and the project received the green light and budget, we were able to 
+implement more complex scenarios, expand the scripts, and even bring in a professional actress to record the
+voiceovers!   
+While these improvements came later, the POC stage was a valuable learning experience.
+We realized that machine learning challenges can be solved not only through complex models but 
+also by thorough careful domain exploration, data collection, and continuous collaboration within the team.
+
+
+Thanks for reading!
+
