@@ -22,6 +22,9 @@ I also wanted to show my friends and colleagues just how cool machine learning c
 So, I built an app with Flask and Canvas and hosted it on Heroku(until 2022)
 
 
+The full code can be found [here](https://github.com/EkaterinaKasilina/written_digit_recognition?tab=readme-ov-file)
+*The project is old and code is not very clean and good in general
+
 # Models
 For this project I use two models:  
 1. Feed forward neural network (FNN) is written on numpy and is not very accurate.  
