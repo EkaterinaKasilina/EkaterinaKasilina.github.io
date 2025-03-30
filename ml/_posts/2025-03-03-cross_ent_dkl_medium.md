@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KL Divergence vs. Cross-Entropy: Understanding the Difference and Similarities
+title: KL Divergence vs. Cross-Entropy. Understanding the Difference and Similarities
 description: >
   Simple explanation of two crucial ML concepts
   
