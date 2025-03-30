@@ -11,7 +11,6 @@ hide_last_modified: true
 tags: [ml, metrics]
 ---
 
-
 Simple explanation of two crucial ML concepts
 
 The full text and code also can be found in my [Medium blog](https://medium.com/@katykas/kl-divergence-vs-cross-entropy-understanding-the-difference-and-similarities-9cbc0c796598)
